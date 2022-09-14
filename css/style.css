@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+    scroll-behavior: smooth; }
+  
+body {
+    background-image: url("../images/baires1.jpg");
+    background-color: olive
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif; }
+
+a {
+  text-decoration: none;
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer; }
+
+.img-fluid {
+  margin: 3px; }
+
+h1 {
+  font-size: 6rem;
+  font-weight: 600;
+  margin: 2rem;
+  text-align: center;
+  color: azure; }
+
+#bienvenido{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 2rem;
+  text-align: center;
+  color: azure; 
+}
+
+p {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 1rem;
+  text-align: left;
+  color: azure; 
+}
+
+  
