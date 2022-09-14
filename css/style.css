@@ -10,8 +10,9 @@ html {
   
 body {
     background-image: url("../images/baires1.jpg");
-    background-color: olive
-    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif; }
+    background-color: olive;
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif; 
+  }
 
 a {
   text-decoration: none;

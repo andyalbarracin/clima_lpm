@@ -14,7 +14,23 @@ while( sesion <= 1) {
   console.log(ciudad)
 }
 
+function mensaje(){
+    let gradosAhora = ciudad.grados
+        if (gradosAhora <= 11) {
+          document.write(`<p>Mejor abrigate.</p>`);
+        }else if (gradosAhora >= 12 && gradosAhora < 19){
+          document.write(`<p>LLeva un buzo por las dudas</p>`);
+        }else if (gradosAhora >= 20 && gradosAhora < 29) {
+          document.write(`<p>Tranqui, disfruta que el día esta bueno.</p>`);
+        }else{
+          document.write(`<p>Boludo! Quedate en tu casa!</p>`);
+        }
+}
+
+mensaje()
 console.log(ciudad)
+console.log(ciudad.grados)
+console.log(gradosAhora)
 
 
 /*
@@ -47,7 +63,4 @@ let elegir = parseInt(prompt(`Elija la ciudad:
  `));
 
  
-document.write(`<h2>Ciudad Elegida: ${elegir} - ${listaCiudades[elegir-1]}</h2>`)
-*/
-
-
+document.write(`<h2>Ciudad Elegida: ${elegir} - ${listaCiudades[elegir-1]}</h2>`) */
