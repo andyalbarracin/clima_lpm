@@ -6,16 +6,19 @@ while( sesion <= 1) {
   const ciudad ={}
   ciudad.index = 1
   ciudad.nombre = prompt("En que ciudad te encuentras?:")
-  ciudad.grados = parseInt(prompt("Cuantos grados hace en este momento?(Ingresa solo números):"))
+  ciudad.grados = parseInt(prompt("Cuantos grados hace en este momento? (Ingresa solo números):"))
   ciudad.valor = true
   document.write(`<h1>Bienvenidos! Vamos a ver que tal el clima en </br><strong>${ciudad.nombre.toLocaleUpperCase()}</strong></h1>`)
   document.write(`<h2>Parece que hacen unos ${ciudad.grados}º de temperatura.</h2>`)
   sesion++;
-  console.log(ciudad)
 }
 
-function mensaje(){
-    let gradosAhora = ciudad.grados
+console.log(ciudad)
+let gradosAhora = ciudad.grados
+console.log(gradosAhora)
+
+
+const mostrarMensaje = (gradosAhora) => {
         if (gradosAhora <= 11) {
           document.write(`<p>Mejor abrigate.</p>`);
         }else if (gradosAhora >= 12 && gradosAhora < 19){
@@ -27,7 +30,8 @@ function mensaje(){
         }
 }
 
-mensaje()
+mostrarMensaje(gradosAhora)
+
 console.log(ciudad)
 console.log(ciudad.grados)
 console.log(gradosAhora)
