@@ -44,6 +44,15 @@ h2 {
   color: azure; 
 }
 
+h3 {
+  font-size: 4rem;
+  font-weight: 400;
+  margin: 3rem;
+  text-align: center;
+  color: violet; 
+}
+
+
 p {
   font-size: 2rem;
   font-weight: 400;
@@ -51,5 +60,7 @@ p {
   text-align: left;
   color: azure; 
 }
+
+
 
   
